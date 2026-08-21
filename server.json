@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/openai_billing-mcp",
+  "title": "OpenAI Billing",
+  "description": "OpenAI organization usage and cost reporting through an admin API key connected by the user.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/openai_billing-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_openai_billing"
+    }
+  ]
+}
